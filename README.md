@@ -42,7 +42,17 @@ Missing values in the following columns were identified and replaced with **"Unk
 
 The cleaned dataset was then exported as a new CSV file for further analysis in Excel.
 
+#### Python Data Cleaning
+
+<img src="01-python-data-cleaning-1.png" width="700">
+<img src="02-python-data-cleaning-2.png" width="700">
+<img src="03-python-data-cleaning-3.png" width="700">
+
 A correlation heatmap was also created using Seaborn to explore relationships between numerical variables.
+
+#### Correlation Heatmap
+
+<img src="04-correlation-heatmap.png" width="700">
 
 ### Skills Demonstrated
 
@@ -69,12 +79,12 @@ The cleaned dataset was imported into Excel for analysis.
 
 #### Previous vs Current Scores
 
-| Metric | Previous Scores | Current Scores |
-|----------|----------|----------|
-| Average Score | 75.1 | 67.2 |
-| Median Score | 75 | 67 |
-| Maximum Score | 100 | 100 |
-| Minimum Score | 50 | 55 |
+| Metric | Previous Scores | Current Scores | Difference/Growth |
+|----------|----------|----------|----------|
+| Average Score | 75.1 | 67.2 | -7.8 |
+| Median Score | 75 | 67 | -8 |
+| Max Score | 100 | 100 | 0 |
+| Min Score | 50 | 55 | +5 |
 
 This analysis showed an average score decrease of **7.8 points**.
 
@@ -83,6 +93,10 @@ This analysis showed an average score decrease of **7.8 points**.
 ### Teacher Quality Analysis
 
 Average scores were analysed based on teacher quality.
+
+#### Average Score Drop Comparison by Teacher Quality
+
+<img src="05-teacher-quality-analysis.png" width="700">
 
 | Teacher Quality | Average Previous Score | Average Current Score |
 |----------|----------|----------|
@@ -110,6 +124,10 @@ Key findings:
 
 A histogram was created to visualise the distribution of score changes.
 
+#### Student Score Changes Histogram
+
+<img src="06-score-changes-histogram.png" width="700">
+
 ---
 
 ### School Type Analysis
@@ -122,6 +140,10 @@ Student performance was compared between public and private schools.
 | Private | 74.8 | 67.3 | -7.5 |
 
 A bar chart was created to compare score changes by school type.
+
+#### Score Change by School Type
+
+<img src="07-school-type-analysis.png" width="700">
 
 ### Skills Demonstrated
 
@@ -144,9 +166,13 @@ Tableau was used to create interactive visualisations and explore relationships 
 
 A scatter plot was created to investigate the relationship between study hours and exam performance while factoring in parental involvement.
 
+<img src="08-study-hours-vs-exam-score.png" width="700">
+
 #### Motivation Level vs Teacher Quality
 
 A heatmap was created to analyse the relationship between student motivation levels and teacher quality.
+
+<img src="09-motivation-teacher-quality-heatmap.png" width="700">
 
 ### Skills Demonstrated
 
@@ -192,26 +218,3 @@ A heatmap was created to analyse the relationship between student motivation lev
 - Build a Power BI dashboard for comparison with Tableau.
 
 ---
-
-## Screenshots
-
-### Python Data Cleaning
-*(Insert screenshot here)*
-
-### Correlation Heatmap
-*(Insert screenshot here)*
-
-### Teacher Quality Analysis
-*(Insert screenshot here)*
-
-### Student Score Changes Histogram
-*(Insert screenshot here)*
-
-### School Type Analysis
-*(Insert screenshot here)*
-
-### Hours Studied vs Exam Score
-*(Insert screenshot here)*
-
-### Motivation Level vs Teacher Quality Heatmap
-*(Insert screenshot here)*
